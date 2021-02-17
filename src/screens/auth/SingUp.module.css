@@ -1,0 +1,195 @@
+.InputText {
+  padding: 6px 12px;
+  margin: 0;
+  border: none;
+  outline: none;
+  width: 85%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.InputText::placeholder {
+  color: #636262;
+  font-size: 0.8rem;
+  font-style: italic;
+  letter-spacing: 0.85px;
+}
+
+.Container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0;
+}
+
+.FormContainer {
+  width: 65%;
+  height: 80%;
+  margin: auto;
+}
+
+.Card {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 14px;
+  align-items: center;
+  box-shadow: -3px 3px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Title {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  padding: 8px;
+  color: royalblue;
+}
+
+.Form {
+  margin: 1rem 0;
+  width: 80%;
+  height: 100%;
+}
+
+.InputContainer {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 1fr;
+  background-color: rgba(233, 233, 233, 0.9);
+  border: 0.2px solid #6b6b6b;
+  margin-top: 1rem;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.IconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Field {
+  max-width: 100%;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+.ErrorText {
+  color: red;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 0.3rem;
+}
+
+.ButtonContainer {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IlustrationContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: royalblue;
+  opacity: 0.4;
+}
+
+.Span {
+  position: absolute;
+  top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  flex-direction: column;
+}
+
+.AppTitle {
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  letter-spacing: 1px;
+  color: #d1d1d1;
+  text-shadow: -2px 2px 3px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.6rem;
+}
+
+.Messege {
+  text-align: center;
+  color: #141414;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-style: oblique;
+}
+
+.BottomContainer {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BottomContainer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  padding: 0.6rem;
+  color: #ffffff;
+}
+
+.RightButton {
+  width: 60%;
+  height: 15%;
+  padding: 8px 14px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.RightButton:hover {
+  background: #ffffff;
+  color: royalblue;
+  transform: scale(1.1);
+  transition: 0.1s all ease;
+}
+
+.SignUpError {
+  color: red;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  padding: 6px;
+  text-align: center;
+}
+
+.SignUpSuccess {
+  color: green;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  padding: 6px;
+  text-align: center;
+}

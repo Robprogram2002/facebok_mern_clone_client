@@ -1,0 +1,35 @@
+.SomethingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.Options {
+  color: royalblue;
+  font-size: 1rem;
+  margin: 0 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 100%;
+  width: auto;
+  padding: 6px 14px;
+  transition: all 0.2s ease;
+}
+
+.Options:hover {
+  background-color: rgba(54, 52, 52, 0.932);
+}
+
+.BodyContent {
+  width: 100%;
+  margin-top: 1.4rem;
+}
